@@ -820,7 +820,7 @@ function ProjectCard({
           src={
             title === "Pure Radiance Beauty"
               ? "/projects/pure-radiance-homepage.png"
-              : "/images/manuel-profile.png"
+              : "/projects/ecommerce-brand.png.jpeg"
           }
           alt={title}
           className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.02]"
