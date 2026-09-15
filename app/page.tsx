@@ -815,16 +815,16 @@ function ProjectCard({
     <div className="group">
       <div className="relative aspect-[16/10] overflow-hidden rounded-3xl border border-white/10 bg-[#0B261B] transition-all duration-500 group-hover:-translate-y-2 group-hover:border-[#1F6B49]/60">
         
-               {/* Project Image */}
-<img
-  src={
-    title === "Pure Radiance Beauty"
-      ? "/projects/pure-radiance-homepage.png"
-      : "/projects/ecommerce-brand.png.jpeg"
-  }
-  alt={title}
-  className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.02]"
-/>
+                {/* Project Image */}
+        <img
+          src={
+            title === "Pure Radiance Beauty"
+              ? "/projects/pure-radiance-homepage.png"
+              : "/images/manuel-profile.png"
+          }
+          alt={title}
+          className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.02]"
+        />
 
         {/* Floating arrow */}
         <div className="absolute bottom-7 right-7 flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-[#071C14] text-lg text-white transition-all duration-300 group-hover:border-[#4FAF7B] group-hover:bg-[#1F6B49]">
